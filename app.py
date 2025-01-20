@@ -10,7 +10,7 @@ valueToUse = os.getenv('SECRET_KEY', 'valor_por_defecto_seguro')
 
 @app.route('/')
 def hello_world():
-    return valueToUse + " y este es aaa el fichero para nada"
+    return valueToUse + " voy a quitar esto"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
